@@ -6,7 +6,7 @@ public class P125Main {
 		//forで繰り返しをしよう！！！！
 		//10回文字を出力しよう！！！！！
 		for (int i = 0; i < 10; i++) {
-			System.out.println("はい！おっぱぴー！");
+			System.out.println("こんにちは");
 		//初期化!!・繰り返し条件!!・繰り返し時処理!!
 		}
 	}

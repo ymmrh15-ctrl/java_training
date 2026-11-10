@@ -13,16 +13,16 @@ public class P154Main {
 		for (int i = 0; i < seq.length; i++) {
 			switch (seq[i]) {
 			case 0 -> {
-				System.out.println("A");
+				System.out.print("A ");
 			}
 			case 1 -> {
-				System.out.println("T");
+				System.out.print("T ");
 			}
 			case 2 -> {
-				System.out.println("G");
+				System.out.print("G ");
 			}
 			case 3 -> {
-				System.out.println("C");
+				System.out.print("C ");
 			}
 			}
 		}
