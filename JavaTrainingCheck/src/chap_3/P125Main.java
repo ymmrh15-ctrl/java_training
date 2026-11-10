@@ -8,7 +8,6 @@ public class P125Main {
 		for (int i = 0; i < 10; i++) {
 			System.out.println("はい！おっぱぴー！");
 		//初期化!!・繰り返し条件!!・繰り返し時処理!!
-		//コメント楽しい!!!!!!
 		}
 	}
 
