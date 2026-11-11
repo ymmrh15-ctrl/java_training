@@ -28,6 +28,7 @@ public class P170_1Main {
 		System.out.println("1桁の数字を入力してください");
 		@SuppressWarnings("resource")
 		int input = new java.util.Scanner(System.in).nextInt();
+		
 		for (int value : numbers) {
 			if (value == input) {
 				System.out.println("アタリ！");
@@ -39,5 +40,4 @@ public class P170_1Main {
 
 		}
 	}
-
 }
