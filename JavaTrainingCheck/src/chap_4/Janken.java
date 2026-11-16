@@ -9,13 +9,22 @@ public class Janken {
 		int te2 = new java.util.Random().nextInt(3) + 1;
 		
 		//条件分岐
+		System.out.println(te2);
 		if ( te ==  te2 ) {
 			System.out.println("あいこです");
 		}
-		else if (te ==  ) {
-			System.out.println();
-		} else if (te ==  ) {
-			System.out.println();
+		else if (te == 1 && te2 == 2) {
+			System.out.println("勝ち");
+		} else if (te == 1 && te2 == 3 ) {
+			System.out.println("負け");
+		} else if (te == 2 && te2 == 1) {
+			System.out.println("負け");
+		} else if (te == 2 && te2 == 3) {
+			System.out.println("勝ち");
+		} else if (te == 3 && te2 == 1) {
+			System.out.println("勝ち");
+		} else if (te == 3 && te == 2) {
+			System.out.println("負け");
 		}
 	}
 
