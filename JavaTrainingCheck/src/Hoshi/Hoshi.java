@@ -1,4 +1,4 @@
-package chap_3;
+package Hoshi;
 
 public class Hoshi {
 

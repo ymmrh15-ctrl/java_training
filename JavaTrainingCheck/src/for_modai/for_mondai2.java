@@ -1,4 +1,4 @@
-package chap_3;
+package for_modai;
 
 //＊を◣になるように出力するプログラム
 public class for_mondai2 {

@@ -1,4 +1,4 @@
-package chap_3;
+package for_modai;
 
 //「＊」を9×9個表示させるプログラム
 public class for_modai1 {

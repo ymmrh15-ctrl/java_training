@@ -1,4 +1,4 @@
-package chap_4;
+package Dentaku;
 
 public class Dentaku {
 

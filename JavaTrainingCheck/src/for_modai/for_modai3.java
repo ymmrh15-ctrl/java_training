@@ -18,7 +18,7 @@
 //これ自力で考えられない
 
 
-package chap_3;
+package for_modai;
 
 public class for_modai3 {
 
