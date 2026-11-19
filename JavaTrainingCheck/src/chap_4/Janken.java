@@ -3,27 +3,36 @@ package chap_4;
 public class Janken {
 
 	public static void main(String[] args) {
-		System.out.println("手を入力してください[1:グー 2:チョキ 3:パー]");
+		//
+		String hands[] = { "グー", "チョキ", "パー" };
+
+		System.out.println("手を入力してください[0:グー 1:チョキ 2:パー]");
 		//定義
-		int te = new java.util.Scanner(System.in).nextInt();
-		int te2 = new java.util.Random().nextInt(3) + 1;
-		
+		int me = new java.util.Scanner(System.in).nextInt();
+		int you = new java.util.Random().nextInt(3);
+
+		System.out.println("自分の手は" + hands[me]);
 		//条件分岐
-		System.out.println(te2);
-		if ( te ==  te2 ) {
+		if (me == you) {
+			System.out.println("相手の手は" + hands[you] + "です");
 			System.out.println("あいこです");
-		}
-		else if (te == 1 && te2 == 2) {
+		} else if (me == 0 && you == 1) {
+			System.out.println("相手の手はチョキです");
 			System.out.println("勝ち");
-		} else if (te == 1 && te2 == 3 ) {
+		} else if (me == 0 && you == 2) {
+			System.out.println("相手の手はパーです");
 			System.out.println("負け");
-		} else if (te == 2 && te2 == 1) {
+		} else if (me == 1 && you == 0) {
+			System.out.println("相手の手はグーです");
 			System.out.println("負け");
-		} else if (te == 2 && te2 == 3) {
+		} else if (me == 1 && you == 2) {
+			System.out.println("相手の手はパーです");
 			System.out.println("勝ち");
-		} else if (te == 3 && te2 == 1) {
+		} else if (me == 2 && you == 0) {
+			System.out.println("相手の手はグーです");
 			System.out.println("勝ち");
-		} else if (te == 3 && te == 2) {
+		} else if (me == 2 && you == 1) {
+			System.out.println("相手の手はチョキです");
 			System.out.println("負け");
 		}
 	}
