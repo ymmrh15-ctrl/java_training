@@ -1,6 +1,5 @@
 package chap_11;
 
-import chap_10.Hero;
 
 public class Matango {
 
